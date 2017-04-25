@@ -978,7 +978,7 @@ a.w3_agile_vimeo:hover{
     left: 0.3em;
 }
 .login {
-    padding: 5em 0;
+    padding: 0.2em 0em;
 }
 /*-- //login --*/
 /*-- register --*/
@@ -2704,7 +2704,7 @@ ul.paging {
     padding: 3em 0;
 }
 .login {
-    padding: 3em 0;
+    padding: 1em 0em;
 }
 .checkout {
     padding: 3em 0;
@@ -2835,7 +2835,7 @@ ul.faq {
     width: 51%;
 }
 .login-form-grids {
-    width: 71%;
+    width: 40%;
 }
 .checkout-left-basket {
     width: 42%;
@@ -3354,7 +3354,7 @@ ul.faq {
 	padding-left: 30px !important;
 }
 .login {
-    padding: 2em 0;
+    padding: 0em 0;
 }
 .login p a {
     font-size: 1em;

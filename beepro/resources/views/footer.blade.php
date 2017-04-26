@@ -1,4 +1,4 @@
-
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
 <script src="js/minicart.min.js"></script>
 <script>
 	// Mini Cart
@@ -23,3 +23,4 @@
 			
 		});
 </script>	
+@yield('js')

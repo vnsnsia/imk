@@ -10,11 +10,11 @@
 	</div>
 
 <!-- //breadcrumbs -->
-	<div class="products">
+	<div class="products" style="padding-top:1em;">
 		<div class="container">
 			<div class="agileinfo_single">
 				<div class="col-md-12">
-					<h2 style="text-align:center;">Kylie Lip Kit!</h2>
+					<h1 style="text-align:center;margin-bottom:20px">Kylie Lip Kit!</h1>
 				</div>
 				<div class="col-md-12">
 					<div class="col-md-2">
@@ -61,8 +61,19 @@
 					<div class="col-md-2">
 					</div>
 					<div class="col-md-8">
-						<h4 style="text-align: center;">Description :</h4>
+						<h2 style="text-align: center; color:#fe9126; margin-bottom:0">Review</h2>
 						<p align="justify" style="margin:5px">Hi semuaa! Aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit.Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya.</p>
+					</div>
+					<div class="col-md-2">
+					</div>
+				</div>
+				<div class="col-md-12"><br></div>
+				<div class="col-md-12">
+					<div class="col-md-2">
+					</div>
+					<div class="col-md-8">
+						<div class="col-md-2"><h4>Hashtag</h4></div>
+						<div class="col-md-10"><a href="{{url('makeup-lips-kylie')}}">#KylieLipKit</a></div>
 					</div>
 					<div class="col-md-2">
 					</div>
@@ -109,19 +120,23 @@
 <!-- new -->
 	<div class="newproducts-w3agile">
 		<div class="container">
-			<h3>Popular</h3>
+			<h3>#KylieLipKit</h3>
 				<div class="agile_top_brands_grids">
 				<!--yeee-->
+
 							<div class="agile_top_brands_grids">
 								<div class="col-md-4 top_brand_left">
 									<div class="hover14 column">
 										<div class="agile_top_brand_left_grid">
+<!-- 											<div class="agile_top_brand_left_grid_pos">
+												<img src="images/offer.png" alt=" " class="img-responsive" />
+											</div> -->
 											<div class="agile_top_brand_left_grid1">
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
+															<a href="single.html"><img title=" " alt=" " class="img-responsive"src="images/kylie3.jpg" width="300" height="300" style=""/></a>		
+															<h5 style="font-size:150%">Kylie Lip Kit!</h5>
 															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
 															<div class="stars">
 																<i class="fa fa-star blue-star" aria-hidden="true"></i>
@@ -137,20 +152,46 @@
 										</div>
 									</div>
 								</div>
-
-<!--yeee-->
-<!--yeee-->
-							<div class="agile_top_brands_grids">
 								<div class="col-md-4 top_brand_left">
 									<div class="hover14 column">
 										<div class="agile_top_brand_left_grid">
+<!-- 											<div class="agile_top_brand_left_grid_pos">
+												<img src="images/offer.png" alt=" " class="img-responsive" />
+											</div> -->
 											<div class="agile_top_brand_left_grid1">
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
+															<a href="single2.html"><img title=" " alt=" " class="img-responsive"src="images/kylie4.jpg" width="300" height="300" style=""/></a>	
+															<h5 style="font-size:150%">Lip Cream</h5>
+															<h4 style="text-align:left;"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Vinsen</h4>
+															<div class="stars">
+																<i class="fa fa-star blue-star" aria-hidden="true"></i>
+																<i class="fa fa-star blue-star" aria-hidden="true"></i>
+																<i class="fa fa-star blue-star" aria-hidden="true"></i>
+																<i class="fa fa-star blue-star" aria-hidden="true"></i>
+																<i class="fa fa-star gray-star" aria-hidden="true"></i>
+															</div>
+														</div>
+													</div>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 top_brand_left">
+									<div class="hover14 column">
+										<div class="agile_top_brand_left_grid">
+<!-- 											<div class="agile_top_brand_left_grid_pos">
+												<img src="images/offer.png" alt=" " class="img-responsive" />
+											</div> -->
+											<div class="agile_top_brand_left_grid1">
+												<figure>
+													<div class="snipcart-item block" >
+														<div class="snipcart-thumb">
+															<a href="products.html"><img title=" " alt=" " class="img-responsive"src="images/kylie2.jpg" width="300" height="300" style=""/></a>	
+															<h5 style="font-size:150%">Kylie Kit!</h5>
+															<h4 style="text-align:left;"><img src="images/12.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Kania Amalia</h4>
 															<div class="stars">
 																<i class="fa fa-star blue-star" aria-hidden="true"></i>
 																<i class="fa fa-star blue-star" aria-hidden="true"></i>
@@ -166,37 +207,6 @@
 									</div>
 								</div>
 							</div>
-
-<!--yeee-->										
-<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
 <!--yeee-->
 						<div class="clearfix"> </div>
 				</div>

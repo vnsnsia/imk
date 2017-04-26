@@ -1,5 +1,5 @@
 
-	<div class="logo_products">
+	<div class="logo_products" style="padding-bottom:2em">
 		<div class="container">
 			<div class="w3ls_logo_products_left">
 				<h1><a href="{{url('home')}}">Bee-Pro</a></h1>

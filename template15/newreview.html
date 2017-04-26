@@ -154,11 +154,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="login-form-grids">
 				<h5>Judul</h5>
 				<form action="#" method="post">
-					<input type="text" placeholder="Judul" required=" " >
-						<textarea name="Message" placeholder="What I think about the product..." required=""></textarea>
+					<input type="text" placeholder="Judul" required="" >
+						<br><b>Review</b> <br><textarea name="Message" placeholder="What I think about the product..." required=""></textarea><br>
+						<br><b>Tempat Belanja</b> <br><input type="text" placeholder="Tempat belanja" required=" " >
+						<br><b>Harga</b> <br>
+						<input type="text" placeholder="Harga" required=" " >
+						<br><b>Hashtag</b> (separated by spaces) <br>
+						<div id="id01"> <input type="text" placeholder="Hashtag" required=" " > </div>
+						<br>
+						<script type="text/javascript">
+						var a = document.getElementById('id01');
+						a.addEventListener('keydown', addHash, false);
+
+						function addHash(event) {
+						    if (event.keyCode === 32 && event.target.value.length) {
+						        event.preventDefault();
+
+						        var elem = event.target,
+						            val = elem.value;
+
+						        if (val.slice(-1) !== '#') {
+						            elem.value += ' #';
+						        }
+						    } else if (!event.target.value.length) {
+						        if (event.keyCode === 32) {
+						            event.preventDefault();
+						        }
+						        event.target.value = '#';
+						    }
+						}
+						</script>
+
 						<label class="control-label">Upload Foto</label>
 						<input id="input-1" type="file" class="file">
-						
+					
 					<input type="submit" value="Publish">
 				</form>
 			</div>

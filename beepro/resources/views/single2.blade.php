@@ -171,66 +171,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="products">
 		<div class="container">
 			<div class="agileinfo_single">
-				<div class="col-md-12">
-					<h2 style="text-align:center;">Kylie Lip Kit!</h2>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-8">
-						<div class="col-md-9">
-							<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-3">
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
-							</div>
-						</div>
-					</div>
-					<div class="col-md-2">
-
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-6">
-						<a href="people.html">
-							<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-						</a>
-					</div>		
-					<div class="col-md-2">
-						<h4 style="text-align: center;color: blue">Rp 50.000</h4>
-						<h5 style="text-align: left;">www.belanja.com</h5>		
-					</div>													
-					<div class="col-md-2">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-8">
-						<h4 style="text-align: center;">Description :</h4>
-						<p align="justify" style="margin:5px">Hi semuaa! Aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit.Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya.</p>
-					</div>
-					<div class="col-md-2">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- 	<div class="products">
-		<div class="container">
-			<div class="agileinfo_single">
 				
 				<div class="col-md-4 agileinfo_single_left">
 					<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive">
@@ -238,8 +178,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-8 agileinfo_single_right">
 				<h2>Kylie Lip Kit!</h2>
 					<div class="rating1">
-						<a href="tiaraAmalia.html">
-						<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%;"> Tiara Amalia</h4></a>
 						<span class="starRating">
 							<input id="rating5" type="radio" name="rating" value="5">
 							<label for="rating5">5</label>
@@ -263,7 +201,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 <!-- new -->
 	<div class="newproducts-w3agile">
 		<div class="container">
@@ -295,6 +233,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 									</div>
 								</div>
+							</div>
 
 <!--yeee-->
 <!--yeee-->

@@ -163,206 +163,150 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">CheckOut</li>
 			</ol>
 		</div>
 	</div>
 
 <!-- //breadcrumbs -->
-	<div class="products">
+<!-- checkout -->
+	<div class="checkout">
 		<div class="container">
-			<div class="agileinfo_single">
-				<div class="col-md-12">
-					<h2 style="text-align:center;">Kylie Lip Kit!</h2>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-8">
-						<div class="col-md-9">
-							<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-3">
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
+			<h2>Your shopping cart contains: <span>3 Products</span></h2>
+			<div class="checkout-right">
+				<table class="timetable_sub">
+					<thead>
+						<tr>
+							<th>SL No.</th>	
+							<th>Product</th>
+							<th>Quality</th>
+							<th>Product Name</th>
+						
+							<th>Price</th>
+							<th>Remove</th>
+						</tr>
+					</thead>
+					<tr class="rem1">
+						<td class="invert">1</td>
+						<td class="invert-image"><a href="single.html"><img src="images/1.png" alt=" " class="img-responsive" /></a></td>
+						<td class="invert">
+							 <div class="quantity"> 
+								<div class="quantity-select">                           
+									<div class="entry value-minus">&nbsp;</div>
+									<div class="entry value"><span>1</span></div>
+									<div class="entry value-plus active">&nbsp;</div>
+								</div>
 							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
+						</td>
+						<td class="invert">Tata Salt</td>
+						
+						<td class="invert">$290.00</td>
+						<td class="invert">
+							<div class="rem">
+								<div class="close1"> </div>
 							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
+							<script>$(document).ready(function(c) {
+								$('.close1').on('click', function(c){
+									$('.rem1').fadeOut('slow', function(c){
+										$('.rem1').remove();
+									});
+									});	  
+								});
+						   </script>
+						</td>
+					</tr>
+					<tr class="rem2">
+						<td class="invert">2</td>
+						<td class="invert-image"><a href="single.html"><img src="images/2.png" alt=" " class="img-responsive" /></a></td>
+						<td class="invert">
+							 <div class="quantity"> 
+								<div class="quantity-select">                           
+									<div class="entry value-minus">&nbsp;</div>
+									<div class="entry value"><span>1</span></div>
+									<div class="entry value-plus active">&nbsp;</div>
+								</div>
 							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
+						</td>
+						<td class="invert">Fortune oil</td>
+					
+						<td class="invert">$250.00</td>
+						<td class="invert">
+							<div class="rem">
+								<div class="close2"> </div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-2">
+							<script>$(document).ready(function(c) {
+								$('.close2').on('click', function(c){
+									$('.rem2').fadeOut('slow', function(c){
+										$('.rem2').remove();
+									});
+									});	  
+								});
+						   </script>
+						</td>
+					</tr>
+					<tr class="rem3">
+						<td class="invert">3</td>
+						<td class="invert-image"><a href="single.html"><img src="images/3.png" alt=" " class="img-responsive" /></a></td>
+						<td class="invert">
+							 <div class="quantity"> 
+								<div class="quantity-select">                           
+									<div class="entry value-minus">&nbsp;</div>
+									<div class="entry value"><span>1</span></div>
+									<div class="entry value-plus active">&nbsp;</div>
+								</div>
+							</div>
+						</td>
+						<td class="invert">Aashirvaad atta</td>
+						
+						<td class="invert">$15.00</td>
+						<td class="invert">
+							<div class="rem">
+								<div class="close3"> </div>
+							</div>
+							<script>$(document).ready(function(c) {
+								$('.close3').on('click', function(c){
+									$('.rem3').fadeOut('slow', function(c){
+										$('.rem3').remove();
+									});
+									});	  
+								});
+						   </script>
+						</td>
+					</tr>
+								<!--quantity-->
+									<script>
+									$('.value-plus').on('click', function(){
+										var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)+1;
+										divUpd.text(newVal);
+									});
 
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-6">
-						<a href="people.html">
-							<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-						</a>
-					</div>		
-					<div class="col-md-2">
-						<h4 style="text-align: center;color: blue">Rp 50.000</h4>
-						<h5 style="text-align: left;">www.belanja.com</h5>		
-					</div>													
-					<div class="col-md-2">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-8">
-						<h4 style="text-align: center;">Description :</h4>
-						<p align="justify" style="margin:5px">Hi semuaa! Aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit.Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya.</p>
-					</div>
-					<div class="col-md-2">
-					</div>
-				</div>
+									$('.value-minus').on('click', function(){
+										var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)-1;
+										if(newVal>=1) divUpd.text(newVal);
+									});
+									</script>
+								<!--quantity-->
+				</table>
 			</div>
-		</div>
-	</div>
-<!-- 	<div class="products">
-		<div class="container">
-			<div class="agileinfo_single">
-				
-				<div class="col-md-4 agileinfo_single_left">
-					<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive">
+			<div class="checkout-left">	
+				<div class="checkout-left-basket">
+					<h4>Continue to basket</h4>
+					<ul>
+						<li>Product1 <i>-</i> <span>$15.00 </span></li>
+						<li>Product2 <i>-</i> <span>$25.00 </span></li>
+						<li>Product3 <i>-</i> <span>$29.00 </span></li>
+						<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
+						<li>Total <i>-</i> <span>$84.00</span></li>
+					</ul>
 				</div>
-				<div class="col-md-8 agileinfo_single_right">
-				<h2>Kylie Lip Kit!</h2>
-					<div class="rating1">
-						<a href="tiaraAmalia.html">
-						<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%;"> Tiara Amalia</h4></a>
-						<span class="starRating">
-							<input id="rating5" type="radio" name="rating" value="5">
-							<label for="rating5">5</label>
-							<input id="rating4" type="radio" name="rating" value="4">
-							<label for="rating4">4</label>
-							<input id="rating3" type="radio" name="rating" value="3" checked="">
-							<label for="rating3">3</label>
-							<input id="rating2" type="radio" name="rating" value="2">
-							<label for="rating2">2</label>
-							<input id="rating1" type="radio" name="rating" value="1">
-							<label for="rating1">1</label>
-						</span>
-					</div>
-					<div class="w3agile_description">
-						<h4>Description :</h4>
-						<p>Hi semuaa.. Today aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit. </p>
-						<p>Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya. </p>
-
-					</div>
+				<div class="checkout-right-basket">
+					<a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div> -->
-<!-- new -->
-	<div class="newproducts-w3agile">
-		<div class="container">
-			<h3>Popular</h3>
-				<div class="agile_top_brands_grids">
-				<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-
-<!--yeee-->
-<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-<!--yeee-->										
-<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-<!--yeee-->
-						<div class="clearfix"> </div>
-				</div>
-		</div>
 	</div>
-<!-- //new -->
-
-
+<!-- //checkout -->
 <!-- //footer -->
 	<div class="footer">
 		<div class="container">

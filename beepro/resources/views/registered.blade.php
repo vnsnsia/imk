@@ -163,204 +163,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">Registered Page</li>
 			</ol>
 		</div>
 	</div>
 
+
+	</div>
 <!-- //breadcrumbs -->
-	<div class="products">
+<!-- register -->
+	<div class="register">
 		<div class="container">
-			<div class="agileinfo_single">
-				<div class="col-md-12">
-					<h2 style="text-align:center;">Kylie Lip Kit!</h2>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
+			<h2>Register Here</h2>
+			<div class="login-form-grids">
+				<h5>profile information</h5>
+				<form action="#" method="post">
+					<input type="text" placeholder="First Name..." required=" " >
+					<input type="text" placeholder="Last Name..." required=" " >
+				</form>
+				<div class="register-check-box">
+					<div class="check">
+						<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Subscribe to Newsletter</label>
 					</div>
-					<div class="col-md-8">
-						<div class="col-md-9">
-							<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-3">
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive"> 
-							</div>
-							<div class="col-md-12" style="margin:5px">
-								<img id="example" src="images/kylie2.jpg" alt=" " class="img-responsive"> 
-							</div>
+				</div>
+				<h6>Login information</h6>
+					<form action="#" method="post">
+					<input type="email" placeholder="Email Address" required=" " >
+					<input type="password" placeholder="Password" required=" " >
+					<input type="password" placeholder="Password Confirmation" required=" " >
+					<div class="register-check-box">
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>I accept the terms and conditions</label>
 						</div>
 					</div>
-					<div class="col-md-2">
-
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-6">
-						<a href="people.html">
-							<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-						</a>
-					</div>		
-					<div class="col-md-2">
-						<h4 style="text-align: center;color: blue">Rp 50.000</h4>
-						<h5 style="text-align: left;">www.belanja.com</h5>		
-					</div>													
-					<div class="col-md-2">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-8">
-						<h4 style="text-align: center;">Description :</h4>
-						<p align="justify" style="margin:5px">Hi semuaa! Aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit.Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya.</p>
-					</div>
-					<div class="col-md-2">
-					</div>
-				</div>
+					<input type="submit" value="Register">
+				</form>
+			</div>
+			<div class="register-home">
+				<a href="index.html">Home</a>
 			</div>
 		</div>
 	</div>
-<!-- 	<div class="products">
-		<div class="container">
-			<div class="agileinfo_single">
-				
-				<div class="col-md-4 agileinfo_single_left">
-					<img id="example" src="images/kylie3.jpg" alt=" " class="img-responsive">
-				</div>
-				<div class="col-md-8 agileinfo_single_right">
-				<h2>Kylie Lip Kit!</h2>
-					<div class="rating1">
-						<a href="tiaraAmalia.html">
-						<h4 style="text-align:left; color:black"><img src="images/10.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%;"> Tiara Amalia</h4></a>
-						<span class="starRating">
-							<input id="rating5" type="radio" name="rating" value="5">
-							<label for="rating5">5</label>
-							<input id="rating4" type="radio" name="rating" value="4">
-							<label for="rating4">4</label>
-							<input id="rating3" type="radio" name="rating" value="3" checked="">
-							<label for="rating3">3</label>
-							<input id="rating2" type="radio" name="rating" value="2">
-							<label for="rating2">2</label>
-							<input id="rating1" type="radio" name="rating" value="1">
-							<label for="rating1">1</label>
-						</span>
-					</div>
-					<div class="w3agile_description">
-						<h4>Description :</h4>
-						<p>Hi semuaa.. Today aku mau sharing soal lippies yang lagi hits banget baik di Indonesia maupun di luar negri, cepet banget sold out nya sejak dirilis. Produk apakah itu? Yak tepat sekali, lippies yang akan aku review kali ini adalah Kylie Lip Kit. </p>
-						<p>Sekarang Kylie Matte Lip Kit tersedia dalam 15 warna, sampe ada warna hitam dan biru segala, tapi aku hanya punya dua warna yaitu Koko K dan Posie K. Awalnya sempet mau beli Candy K juga tapi mengurungkan niat deh dan nyobain dua warna dulu. Yuk langsung kita mulai aja reviewnya. </p>
-
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div> -->
-<!-- new -->
-	<div class="newproducts-w3agile">
-		<div class="container">
-			<h3>Popular</h3>
-				<div class="agile_top_brands_grids">
-				<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-
-<!--yeee-->
-<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-<!--yeee-->										
-<!--yeee-->
-							<div class="agile_top_brands_grids">
-								<div class="col-md-4 top_brand_left">
-									<div class="hover14 column">
-										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid1">
-												<figure>
-													<div class="snipcart-item block" >
-														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="images/kylie3.jpg" style="max-width:100%"/></a>		
-															<h5>Kylie Lip Kit!</h5>
-															<h4 style="text-align:left;"><img src="images/2.png"  class="img-circle" alt="Cinque Terre" width="304" height="236" style="width:10%; height:10%"> Tiara Amalia</h4>
-															<div class="stars">
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star blue-star" aria-hidden="true"></i>
-																<i class="fa fa-star gray-star" aria-hidden="true"></i>
-															</div>
-														</div>
-													</div>
-												</figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-<!--yeee-->
-						<div class="clearfix"> </div>
-				</div>
-		</div>
-	</div>
-<!-- //new -->
+<!-- //register -->
 
 
 <!-- //footer -->

@@ -2155,6 +2155,25 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
 	background:#3399cc;
 }
 /*-- //contact --*/
+
+/*-- register --*/
+.register textarea {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color: #212121;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #e4e4e4;
+    min-height: 200px;
+    font-weight: bold;
+    margin: 2em 0 0;
+}
+
+.register textarea::-webkit-input-placeholder {
+    color: #212121 !important;
+}
+
 /*-- social-icons --*/
 .w3_agile_social_icons ul li{
 	display:inline-block;

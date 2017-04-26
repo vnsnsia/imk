@@ -31,4 +31,11 @@ Route::get('skincare-moisturizer', function () {return view('skincare.skincare-m
 Route::get('about-us', function () {return view('about');});
 Route::get('contact-us', function () {return view('contact');});
 
+// Route::get('simple', function () {return view('single');});
+
+Route::get('single', function () {return view('single');});
+Route::get('people', function () {return view('people');});
+Route::get('user', function () {return view('user');});
+Route::get('newreview', function () {return view('newreview');});
+
 

@@ -92,43 +92,7 @@
 									<li><a href="{{url('about-us')}}">About Us</a></li>
 									<li><a href="{{url('contact-us')}}">Contact Us</a></li>
 									
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="multi-gd-img">
-													<ul class="multi-column-dropdown" style="min-width:300px;">
-														<h6>Login Form</h6>
-														<div class="form-group">
-														<!-- <form action="{{url('simple')}}" method="post"> -->
-														<!--yang ditambah ini-->
-														<a href="{{url('user')}}">
-														<!--batasan yang ditambah diatas-->
-															<span class="input input--ichiro">
-																<input class="input__field input__field--ichiro" type="email" id="input-25" name="Name" placeholder=" " required="" />
-																<label class="input__label input__label--ichiro" for="input-25">
-																	<span class="input__label-content input__label-content--ichiro">Your Email</span>
-																</label>
-															</span>
-															<span class="input input--ichiro">
-																<input class="input__field input__field--ichiro" type="password" id="input-26" name="Email" placeholder=" " required="" />
-																<label class="input__label input__label--ichiro" for="input-26">
-																	<span class="input__label-content input__label-content--ichiro">Your Password</span>
-																</label>
-															</span>
-															<div class="forgot">
-																<right></a></right>
-															</div>	
-
-															<button type="submit" class="btn btn-warning" style="margin-top:5%">submit</button>
-														</form>
-														</div>
-													</ul>
-												</div>
-												
-											</div>
-										</ul>
-									</li>
+									<li><a href="{{url('newreview')}}">New Review</a></li>
 									 	
 				<div class="modal fade" id="id00" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	                <div class="modal-dialog" role="document">
@@ -180,40 +144,7 @@
                     <div class="imgcontainer">
                       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                     </div>
-                    <div class="modal-body" style="bgcolor:white">
-					 	<div class="row">
-							<!-- <div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s"> -->
-							<div class="col-md-6 top_brand_left">
-								<h3>Login Form</h3><br>
-								<div class="form-group">
-								<form>
-									<div class="forgot">Email</div>
-									<input type="email" placeholder="Email Address" required=" " >
-									<div class="forgot">Password</div>
-									<input type="password" placeholder="Password" required=" " >
-									<input type="submit" value="Login">
-									<div class="forgot">
-										<center><a href="#">Forgot Password?</a></center>
-									</div>									
-								</form>
-								</div>
-
-							</div>
-							<div class="col-md-6 top_brand_left">
-								<h3>Register Here</h3><br>
-								<form>
-									<div class="forgot">Email</div>
-									<input type="email" placeholder="Email Address" required=" " >
-									<div class="forgot">Password</div>
-									<input type="password" placeholder="Password" required=" " >
-									<input type="submit" value="Register">
-									<div><br><center><a href="index.html">Home<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
-									</center></div>
-								</form>
-							</div>
-							<!-- </div> -->
-						</div>
-	                </div>
+                   
 		          </div>
 		        </div>
                 <script>

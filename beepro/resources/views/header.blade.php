@@ -6,18 +6,11 @@
 			</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
-			<!--yang ditambah ini-->
-				<a href="{{url('makeup-face')}}">
-			<!--batasan yang ditambah diatas-->
 				<input type="search" name="Search" placeholder="#Search with Hashtag" required="">
-					<button type="submit" class="btn btn-default search" aria-label="Left Align">
-						<i class="fa fa-search" aria-hidden="true"> </i>
-					</button>
-					<div class="clearfix"></div>
-				</a>
-		<!--batas diganti-->
-
-				
+				<button type="submit" class="btn btn-default search" aria-label="Left Align">
+					<i class="fa fa-search" aria-hidden="true"> </i>
+				</button>
+				<div class="clearfix"></div>
 			</form>
 		</div>
 			
@@ -98,34 +91,31 @@
 											<div class="row">
 												<div class="multi-gd-img">
 													<ul class="multi-column-dropdown" style="min-width:300px;">
-														<h6>Login Form</h6>
-														<div class="form-group">
-														<!-- <form action="{{url('simple')}}" method="post"> -->
-														<!--yang ditambah ini-->
-														<a href="{{url('user')}}">
-														<!--batasan yang ditambah diatas-->
+<!-- 														<a href=""><h6 class="col-md-6 col-xs-6">Login Form</h6></a>
+														<a href=""><h6 class="col-md-6 col-xs-6">Signup</h6></a> -->
+					<ul id="signform" class="nav nav-tabs" role="tablist">
+						<li id="login1" class="active" onclick="loginGanti()"><a href="#" style="padding:10%;color:white"><h5>Login</h5></a></li>
+						<li id="signup1" onclick="signupGanti()"><a href="#" style="padding:10%"><h5>Signup</h5></a></li>
+					</ul>
+														<div class="form-group" id="isi-up">
+														<form action="#" method="post">
 															<span class="input input--ichiro">
-																<input class="input__field input__field--ichiro" type="email" id="input-25" name="Name" placeholder=" " required="" />
+																<input class="input__field input__field--ichiro" type="email" id="input-25" name="email" placeholder=" " required="" />
 																<label class="input__label input__label--ichiro" for="input-25">
-																	<span class="input__label-content input__label-content--ichiro">Your Email</span>
+																	<span class="input__label-content input__label-content--ichiro">Email</span>
 																</label>
 															</span>
 															<span class="input input--ichiro">
 																<input class="input__field input__field--ichiro" type="password" id="input-26" name="Email" placeholder=" " required="" />
 																<label class="input__label input__label--ichiro" for="input-26">
-																	<span class="input__label-content input__label-content--ichiro">Your Password</span>
+																	<span class="input__label-content input__label-content--ichiro">Password</span>
 																</label>
 															</span>
-															<div class="forgot">
-																<right></a></right>
-															</div>	
-
 															<button type="submit" class="btn btn-warning" style="margin-top:5%">submit</button>
 														</form>
 														</div>
 													</ul>
 												</div>
-												
 											</div>
 										</ul>
 									</li>
@@ -228,9 +218,30 @@
                 }
                 </script>
 
+
                 </li>
 								</ul>
 							</div>
 					</nav>
 			</div>
 		</div>
+
+@section('js')
+<script type="text/javascript">
+
+	function signupGanti(){
+      document.getElementById("isi-up").innerHTML='<form action="#" method="post"><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="nama" id="input-24" name="Name" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-24"><span class="input__label-content input__label-content--ichiro">Nama Lengkap</span></label></span><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="email" id="input-25" name="email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-25"><span class="input__label-content input__label-content--ichiro">Email</span></label></span><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="password" id="input-26" name="Email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-26"><span class="input__label-content input__label-content--ichiro">Password</span></label></span><button type="submit" class="btn btn-warning" style="margin-top:5%">submit</button></form>';
+      document.getElementById("signform").innerHTML='<li id="login1" onclick="loginGanti()"><a href="#" style="padding:10%;color:white"><h5>Login</h5></a></li><li id="signup1" class="active" onclick="signupGanti()"><a href="#" style="padding:10%"><h5>Signup</h5></a></li>'
+	}
+
+	function loginGanti(){
+      document.getElementById("isi-up").innerHTML='<form action="#" method="post"><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="email" id="input-25" name="email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-25"><span class="input__label-content input__label-content--ichiro">Email</span></label></span><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="password" id="input-26" name="Email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-26"><span class="input__label-content input__label-content--ichiro">Password</span></label></span><button type="submit" class="btn btn-warning" style="margin-top:5%">submit</button></form>';
+      document.getElementById("signform").innerHTML='<li id="login1" class="active" onclick="loginGanti()"><a href="#" style="padding:10%;color:white"><h5>Login</h5></a></li><li id="signup1" onclick="signupGanti()"><a href="#" style="padding:10%"><h5>Signup</h5></a></li>'
+	}
+
+  $('#signup1').on('click', function(event){
+      document.getElementById("isi-up").innerHTML='<form action="#" method="post"><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="nama" id="input-24" name="Name" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-24"><span class="input__label-content input__label-content--ichiro">Nama Lengkap</span></label></span><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="email" id="input-25" name="email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-25"><span class="input__label-content input__label-content--ichiro">Email</span></label></span><span class="input input--ichiro"><input class="input__field input__field--ichiro" type="password" id="input-26" name="Email" placeholder=" " required="" /><label class="input__label input__label--ichiro" for="input-26"><span class="input__label-content input__label-content--ichiro">Password</span></label></span><button type="submit" class="btn btn-warning" style="margin-top:5%">submit</button></form>';
+
+  });
+</script>
+@endsection
